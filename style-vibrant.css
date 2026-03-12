@@ -98,11 +98,37 @@ section { min-height: 100vh; display: flex; align-items: center; justify-content
 @media (max-width: 850px) {
     .hero-wrapper { flex-direction: column-reverse; text-align: center; gap: 40px; }
     .hero-text { text-align: center; }
-    .theme-btn { margin-left: 0; width: 100%; margin-top: 10px; }
+    
+    /* Делаем меню компактным и свайпаемым по горизонтали */
+    nav { 
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        justify-content: flex-start; 
+        padding: 10px 15px; 
+        gap: 15px;
+        -webkit-overflow-scrolling: touch; /* Плавный скролл на iOS */
+        -ms-overflow-style: none;  /* Скрытие скроллбара IE/Edge */
+        scrollbar-width: none;  /* Скрытие скроллбара Firefox */
+    }
+    nav::-webkit-scrollbar { display: none; } /* Скрытие скроллбара Chrome/Safari */
+    
+    nav a { white-space: nowrap; font-size: 0.85rem; }
+    
+    .theme-btn { 
+        margin-left: 0; 
+        width: auto; 
+        margin-top: 0; 
+        white-space: nowrap; 
+        padding: 6px 12px; 
+        font-size: 0.85rem;
+    }
 }
+
 @media (max-width: 768px) {
-    .card { grid-template-columns: 1fr; gap: 30px; padding: 30px; }
+    .card { grid-template-columns: 1fr; gap: 30px; padding: 25px; }
     .card .full-width, .tech-stack { grid-column: span 1; }
-    .hero-text h1 { font-size: 2.8rem; }
-    .case-header h2 { font-size: 2.2rem; }
+    .hero-text h1 { font-size: 2.5rem; }
+    .case-header h2 { font-size: 2rem; }
+    /* Уменьшаем отступы секций на мобильных */
+    section { padding: 90px 15px 50px; }
 }
