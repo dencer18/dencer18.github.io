@@ -6,16 +6,28 @@
     <title>Портфолио аналитических проектов</title>
     
     <link id="theme-style" rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107569812', 'ym');
+
+    ym(107569812, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/107569812" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </head>
 <body>
 
     <header>
         <nav>
             <a href="#about">Обо мне</a>
-            <a href="#case1">Финансовая модель</a>
-            <a href="#case2">Учет себестоимости</a>
-            <a href="#case3">Управленческая отчетность</a>
-            <a href="#case4">Анализ тендеров</a>
+            <a href="#case1">Фин. модель</a>
+            <a href="#case2">Себестоимость</a>
+            <a href="#case3">ГОК</a>
+            <a href="#case4">Отчетность</a>
+            <a href="#case5">Эффективность</a>
             <button id="theme-toggle" class="theme-btn">🎨 Сменить дизайн</button>
         </nav>
     </header>
@@ -23,18 +35,16 @@
     <section id="about">
         <div class="container hero-wrapper">
             <div class="hero-text">
-                <h1>Финансовое моделирование и автоматизация анализа данных</h1>
+                <h1>Эксперт по автоматизации финансовых моделей и производственной аналитики</h1>
                 <h2>Сергей Денисов</h2>
-                <p>Эксперт по автоматизации финансовой аналитики и анализу данных с опытом более 27 лет в банковском и промышленном секторе.</p>
+                <p>Эксперт по автоматизации финансовых моделей и производственной аналитики с опытом более 27 лет в банковском и промышленном секторе.</p>
                 <p>Специализируюсь на разработке аналитических инструментов и финансовых моделей, объединяющих данные бухгалтерии, производственных систем и управленческого учета.</p>
                 <p>Имею практический опыт автоматизации аналитики с использованием Python, SQL и Excel/VBA, что позволяет ускорять обработку данных и повышать точность финансовых прогнозов.</p>
                 <p>Ключевая область экспертизы — финансовая аналитика и анализ производственных данных для промышленных предприятий.</p>
             </div>
             
             <div class="hero-photo">
-                <div class="hero-photo">
-                    <img src="avatar.png" alt="Фото профиля">
-                </div>
+                <img src="avatar.png" alt="Фото профиля">
             </div>
         </div>
     </section>
@@ -42,32 +52,40 @@
     <section id="case1">
         <div class="container">
             <div class="case-header">
-                <h2>Автоматизация финансовой модели денежных потоков</h2>
-                <div class="positioning">Plan-Fact Auto-Reconciler: Система автоматизированной выверки</div>
+                <h2>Автоматизация финансовой модели денежных потоков предприятия</h2>
             </div>
             <div class="card">
                 <div>
                     <h3>Задача</h3>
-                    <p>Сбор фактических данных из бюджетных статей и их перенос в инвестиционную модель занимал значительное время и повышал риск механических ошибок при обработке.</p>
+                    <p>Финансовая модель предприятия обновлялась вручную, что занимало значительное время и повышало риск ошибок при обработке данных.</p>
                 </div>
                 <div>
                     <h3>Решение</h3>
-                    <p>Разработан комплексный инструмент автоматизированной обработки данных:</p>
+                    <p>Разработан инструмент автоматизированной обработки финансовых данных:</p>
                     <ul>
-                        <li>Бесшовная интеграция из бухгалтерских и производственных источников.</li>
-                        <li>Автоматическое обновление финансовых показателей.</li>
-                        <li>Построение расчетов денежных потоков без человеческого фактора.</li>
+                        <li>интеграция данных из бухгалтерских и производственных источников</li>
+                        <li>автоматическое обновление ключевых финансовых показателей</li>
+                        <li>построение расчетов денежных потоков</li>
                     </ul>
                 </div>
+                
                 <div class="full-width">
                     <h3>Результат</h3>
-                    <p>Существенно ускорена подготовка финансовых расчетов. Обеспечена 100% сопоставимость плановых и фактических показателей для принятия стратегических решений.</p>
+                    <ul>
+                        <li>существенно ускорена подготовка финансовых расчетов</li>
+                        <li>снижена доля ручной обработки данных</li>
+                        <li>повышена точность прогнозирования денежных потоков</li>
+                    </ul>
                 </div>
+
+                <!-- <div class="full-width" style="background: rgba(99, 102, 241, 0.05); min-height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed rgba(99, 102, 241, 0.3); margin-top: 10px; overflow: hidden;">
+                    <span>📷 Место для схемы интеграции данных</span>
+                    </div> -->
+
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">SQL</span>
                     <span class="tech-tag">Excel (VBA)</span>
-                    <span class="tech-tag">ETL Processing</span>
                 </div>
             </div>
         </div>
@@ -77,30 +95,39 @@
         <div class="container">
             <div class="case-header">
                 <h2>Система анализа производственной себестоимости</h2>
-                <div class="positioning">Unit-Cost Control Center: Аналитическая панель операционной эффективности</div>
             </div>
             <div class="card">
                 <div>
                     <h3>Задача</h3>
-                    <p>Отсутствовала система точного анализа факторов отклонения себестоимости. Требовалось уйти от расчета "в среднем по больнице" к учету затрат по конкретным операциям.</p>
+                    <p>Отсутствовала система анализа факторов отклонения производственной себестоимости.</p>
                 </div>
                 <div>
                     <h3>Решение</h3>
-                    <p>Спроектирован аналитический инструмент (Data Fusion), объединяющий:</p>
+                    <p>Разработан аналитический инструмент, объединяющий:</p>
                     <ul>
-                        <li>Производственные показатели (телеметрия).</li>
-                        <li>Данные управленческого учета и ФОТ.</li>
-                        <li>Данные бухгалтерии.</li>
+                        <li>производственные показатели</li>
+                        <li>данные управленческого учета</li>
+                        <li>данные бухгалтерии</li>
                     </ul>
+                    <p>Система позволила анализировать структуру затрат и выявлять ключевые факторы изменения себестоимости.</p>
                 </div>
+                
                 <div class="full-width">
                     <h3>Результат</h3>
-                    <p>Система позволила детально анализировать структуру удельных затрат и выявлять ключевые драйверы изменения себестоимости. Улучшена прозрачность управленческих решений.</p>
+                    <ul>
+                        <li>улучшена прозрачность структуры затрат</li>
+                        <li>выявлены ключевые драйверы изменения себестоимости</li>
+                        <li>повышено качество управленческих решений</li>
+                    </ul>
                 </div>
+
+                <!-- <div class="full-width" style="background: rgba(99, 102, 241, 0.05); min-height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed rgba(99, 102, 241, 0.3); margin-top: 10px; overflow: hidden;">
+                    <span>📷 Место для графика структуры затрат</span>
+                    </div> -->
+
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">SQL</span>
-                    <span class="tech-tag">Data Fusion</span>
                     <span class="tech-tag">Excel</span>
                 </div>
             </div>
@@ -110,32 +137,39 @@
     <section id="case3">
         <div class="container">
             <div class="case-header">
-                <h2>Автоматизация управленческой отчетности</h2>
-                <div class="positioning">Light-RPA Framework: Модуль интеграции изолированных систем</div>
+                <h2>Финансово-экономическое сопровождение строительства ГОК</h2>
             </div>
             <div class="card">
                 <div>
                     <h3>Задача</h3>
-                    <p>Подготовка аналитики требовала масштабной ручной обработки данных из-за несовместимости ИТ-архитектур (устаревшие ERP, самописные бюджеты).</p>
+                    <p>Необходим анализ инвестиционных затрат и финансовых показателей проекта строительства горно-обогатительного комбината на месторождении им. В. Гриба.</p>
                 </div>
                 <div>
                     <h3>Решение</h3>
-                    <p>Разработан набор инструментов для обработки данных поверх интерфейсов работающих систем, не нарушая их код:</p>
+                    <p>Разработаны и поддерживались финансовые модели инвестиционного проекта:</p>
                     <ul>
-                        <li>Автоматическая выгрузка и загрузка данных.</li>
-                        <li>Интеллектуальное агрегирование показателей.</li>
-                        <li>Формирование итоговых отчетов.</li>
+                        <li>анализ капитальных затрат</li>
+                        <li>прогнозирование денежных потоков</li>
+                        <li>сопоставление плановых и фактических показателей</li>
                     </ul>
                 </div>
+                
                 <div class="full-width">
                     <h3>Результат</h3>
-                    <p>Кардинально сокращено время подготовки отчетности. Сведены к нулю риски операционных ошибок, связанных с ручным переносом данных.</p>
+                    <ul>
+                        <li>обеспечена аналитическая поддержка инвестиционного проекта</li>
+                        <li>повышена точность оценки финансовых показателей</li>
+                    </ul>
                 </div>
+
+                <!-- <div class="full-width" style="background: rgba(99, 102, 241, 0.05); min-height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed rgba(99, 102, 241, 0.3); margin-top: 10px; overflow: hidden;">
+                    <span>📷 Место для инфографики инвестиционных показателей</span>
+                    </div> -->
+
                 <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">SQL</span>
-                    <span class="tech-tag">Excel VBA</span>
-                    <span class="tech-tag">RPA (Эмуляция ввода)</span>
+                    <span class="tech-tag">Excel</span>
+                    <span class="tech-tag">Финансовое моделирование</span>
+                    <span class="tech-tag">Анализ данных</span>
                 </div>
             </div>
         </div>
@@ -144,31 +178,81 @@
     <section id="case4">
         <div class="container">
             <div class="case-header">
-                <h2>Интеллектуальное сравнение коммерческих предложений</h2>
-                <div class="positioning">Bid-Analyzer Pro: Система многокритериальной оценки тендеров</div>
+                <h2>Автоматизация управленческой отчетности</h2>
             </div>
             <div class="card">
                 <div>
                     <h3>Задача</h3>
-                    <p>Разноформатные коммерческие предложения от поставщиков с разными условиями оплаты делали прямое сравнение цен некорректным и трудоемким.</p>
+                    <p>Подготовка управленческой аналитики требовала значительной ручной обработки данных.</p>
                 </div>
                 <div>
                     <h3>Решение</h3>
-                    <p>Разработана архитектура нормализации неструктурированных данных:</p>
+                    <p>Разработан набор инструментов обработки данных:</p>
                     <ul>
-                        <li>Генерация единой сводной таблицы.</li>
-                        <li>Приведение цен к общему знаменателю с учетом авансов, сроков поставки и постоплаты.</li>
+                        <li>автоматическая загрузка данных</li>
+                        <li>агрегирование показателей</li>
+                        <li>формирование аналитических отчетов</li>
                     </ul>
                 </div>
+                
                 <div class="full-width">
                     <h3>Результат</h3>
-                    <p>Создан инструмент для устранения хаоса в закупках. Обеспечивается прозрачность процесса с учетом дисконтирования и временной стоимости денег.</p>
+                    <ul>
+                        <li>сокращено время подготовки управленческой отчетности</li>
+                        <li>уменьшено количество ручных операций</li>
+                        <li>повышена скорость принятия управленческих решений</li>
+                    </ul>
                 </div>
+
+                <!-- <div class="full-width" style="background: rgba(99, 102, 241, 0.05); min-height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed rgba(99, 102, 241, 0.3); margin-top: 10px; overflow: hidden;">
+                    <span>📷 Место для примера управленческого отчета</span>
+                    </div> -->
+
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Алгоритмы нормализации данных</span>
-                    <span class="tech-tag">VBA</span>
-                    <span class="tech-tag">Финансовое моделирование</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Excel VBA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case5">
+        <div class="container">
+            <div class="case-header">
+                <h2>Аналитическая система оценки эффективности подразделений</h2>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>Задача</h3>
+                    <p>Необходимо было разработать инструменты для анализа эффективности подразделений компании.</p>
+                </div>
+                <div>
+                    <h3>Решение</h3>
+                    <p>Созданы аналитические формы и модели анализа:</p>
+                    <ul>
+                        <li>расчет ключевых финансовых показателей</li>
+                        <li>анализ отклонений</li>
+                        <li>визуализация результатов</li>
+                    </ul>
+                </div>
+                
+                <div class="full-width">
+                    <h3>Результат</h3>
+                    <ul>
+                        <li>улучшена прозрачность финансовых показателей подразделений</li>
+                        <li>повышено качество управленческой аналитики</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="full-width" style="background: rgba(99, 102, 241, 0.05); min-height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed rgba(99, 102, 241, 0.3); margin-top: 10px; overflow: hidden;">
+                    <span>📷 Место для скриншота аналитического дашборда</span>
+                    </div> -->
+
+                <div class="tech-stack">
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Excel</span>
+                    <span class="tech-tag">Аналитика данных</span>
                 </div>
             </div>
         </div>
